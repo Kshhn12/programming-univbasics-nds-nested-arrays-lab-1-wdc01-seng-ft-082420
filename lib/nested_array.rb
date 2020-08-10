@@ -41,8 +41,7 @@ end
 def matrix_lookup(matrix, row, column)
   # Given any matrix (array of arrays), a row index and a column index, 
   # Return the matrix's content at that row and and column
-  matrix_lookup = []
-  matrix_lookup.push(matrix[row][column])
+  matrix_lookup(matrix[row][column])
   return matrix_lookup
 end
 
